@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+addresses/__init__.py
+addresses/admin.py
+addresses/models.py
+addresses/tests.py
+addresses/views.py
+addresses.egg-info/PKG-INFO
+addresses.egg-info/SOURCES.txt
+addresses.egg-info/dependency_links.txt
+addresses.egg-info/top_level.txt
