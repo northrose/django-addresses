@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-contact-info
-Version: 0.1
+Version: 0.1.2
 Summary: A simple Django app to handle contact information data.
 Home-page: https://github.com/northrose/django-contact_info
 Author: Damien Barchowsky

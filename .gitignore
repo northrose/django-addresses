@@ -2,6 +2,4 @@
 *.pyc
 *.swp
 .idea/
-dist/*
-!dist/django-contact_info*.zip
-django_addresses.egg-info/
+dist/
