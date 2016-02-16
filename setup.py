@@ -6,16 +6,18 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
+from contact_info import __author__, __version__
+
 setup(
     name = 'django-contact_info',
-    version = '0.1.2',
+    version = __version__,
     packages = ['contact_info'],
     include_package_data = True,
     license = 'BSD License', # example license
     description = 'A simple Django app to handle contact information data.',
     long_description = README,
     url = 'https://github.com/northrose/django-contact_info',
-    author = 'Damien Barchowsky',
+    author = __author__,
     author_email = 'dbarchowsky@gmail.com',
     classifiers = [
         'Environment :: Web Environment',
